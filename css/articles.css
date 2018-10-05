@@ -2,24 +2,25 @@
 
 :root {
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #d82b2b;
+    background-image: url('../img/background-articles.jpg');
     color: white;
     max-width: 100%;
     margin: auto; 
 }
 
-.header-logo {
+
+.banner {
     font-family: Allura, cursive;
     font-style: italic;
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0.5rem;
     text-align: center;
 }
-
 .header-nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .header-nav a {
@@ -32,51 +33,30 @@
     text-decoration: underline;
 }
 
-.banner {
-    background-image: url('../img/banner.jpg');
-    min-height: 50vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
+.main-logo {
+    font-family: Allura, cursive;
+    font-style: italic;
+    font-size: 4rem;
+    margin: 0.5rem;
+    text-align: right;
 }
 
-.about-me {
-    max-width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.main-articles {
+    text-align: right;
 }
 
-    
-.main-services a {
+.main-articles a {
     text-decoration: none;
     font-family: 'Italianno', cursive;
     color: white;
+    
 }
-.main-services a:hover {
+.main-articles a:hover {
     text-decoration: underline;
-}
-.main-feedback {
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
-    margin: auto;
-}
-.main-contacts {
-    font-size: small;
-    max-width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .footer-inspired {
     text-align: center;
-    font-size: small;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -85,4 +65,3 @@
     color: #d82b2b;
     margin: auto;
 }
-
