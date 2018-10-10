@@ -44,34 +44,6 @@
     width: 100%;
     justify-content: center;
 }
-
-.name {
-    margin:auto
-    text-align: left;
-     font-family: 'Italianno', cursive;
-     font-size: 3em;
-     font-style: italic;
-}
-
-.about-me {
-    max-width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-.principles {
-    color: black;
-}
-    
-.main-services a {
-    text-decoration: none;
-    font-family: 'Italianno', cursive;
-    color: white;
-}
-.main-services a:hover {
-    text-decoration: underline;
-}
 .main-feedback {
     display: block;
     text-align: center;
@@ -106,4 +78,3 @@
     margin: auto;
     
 }
-
