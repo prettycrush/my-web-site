@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Italianno|Lobster|Montserrat+Alternates|Pacifico');
 
-:root {
+body {
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: #fffda5;
     color: #d82b2b;
@@ -13,7 +13,7 @@
     font-style: italic;
     font-size: 4rem;
     margin: 0.5rem;
-    text-align: center;
+    text-align: right;
 }
 
 .navbar-expand-lg {
@@ -47,104 +47,59 @@
 
 .name {
     margin:auto;
-    min-width: 200px;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     font-family: 'Italianno', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     font-style: italic;
     color: #d82b2b;
     padding-top: 100px;
     background-color: #fffda5;
 }
 
-@media (min-width: 501px;){
-.about-me {
-    max-width: 100%;
-    margin: auto;
+@media only screen and (min-width: 501px) {
+.main-articles {
+    background-color: #fffda5;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #fffda5;
-    }
-    }
-
-@media (max-width: 500px;) {
-    .about-me {
-    width: 500px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #fffda5;
-}
-.elena-img {
+    text-align: center;
     width: 100%;
 }
+}
+
+.article {
+    margin: 20px 20px 20px 20px;
+    width: 90%;
+    border-bottom-width: 50px;
     
 }
 
-
-.elena-info {
-
+@media only screen and (max-width: 500px) {
+    .main-articles {
     background-color: #fffda5;
-    color: black;
-    font-size: 1rem;
-}
-
-
-.
-
-.form {
+    text-align: center;
     width: 100%;
-    text-align:center;
-    display: flex;
+    display:  grid;
+    grid-template-columns: 1fr;
+    margin: 20px 20px 20px 20px;
 }
 
-.container {
-    background-color: #fffda5;
-}    
-.main-services a {
-    text-decoration: none;
-    font-family: 'Italianno', cursive;
-    color: white;
+.article {
+    max-width: 90%;
 }
-.main-services a:hover {
-    text-decoration: underline;
-}
-.main-feedback {
-    display: block;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    background-color: #fffda5;
-}
-
-
-
-.main-contacs-name {
-    text-align: center;
-    color: #fffda5;
-    }
-.main-contacts {
-    font-size: small;
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-bottom-width: 100px;
-    border-top-width: 100px;
-    text-align: center;
+    
 }
 
 .footer-inspired {
     text-align: center;
     font-size: small;
-    position: flex;
-    max-width: 1200px;
+    position: static;
+    width: 100%;
     bottom: 0;
     min-height: 20px;
     background-color: #d82b2b;
     color: white;
     margin: auto;
-    
 }
 
 
