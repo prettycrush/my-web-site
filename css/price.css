@@ -74,11 +74,11 @@
 .footer-inspired {
     text-align: center;
     font-size: small;
-    max-width: 1200px;
+    position: static;
+    width: 100%;
     bottom: 0;
     min-height: 20px;
     background-color: #d82b2b;
     color: white;
     margin: auto;
-    
 }
