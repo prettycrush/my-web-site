@@ -82,7 +82,7 @@ body {
         font-size: 1rem;
     }
     #elena-img {
-        width: 100%
+        width: 100%;
     }
 }
 #elena-info {
@@ -92,7 +92,7 @@ body {
         font-size: 1rem;
     }
     #elena-img {
-        width: 100%
+        width: 100%;
     }
 @media (min-width: 769px) {
 .about-me {
@@ -102,6 +102,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     background-color: #fffda5;
+    
     }
 }
 
@@ -112,6 +113,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         background-color: #fffda5;
+        column-width: 100%;
     }
     
 }
