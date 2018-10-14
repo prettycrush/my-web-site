@@ -68,7 +68,7 @@ body {
 }
 
 .article {
-    margin: 20px 20px 20px 20px;
+   margin-bottom: 20px;
     width: 90%;
     border-bottom-width: 50px;
     
@@ -81,7 +81,7 @@ body {
     width: 100%;
     display:  grid;
     grid-template-columns: 1fr;
-    margin: 20px 20px 20px 20px;
+    
 }
 
 .article {
@@ -101,4 +101,5 @@ body {
     color: white;
     margin: auto;
 }
+
 
