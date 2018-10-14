@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Caveat|Italianno|Lobster|Montserrat+Alternates|Pacifico');
 
 body {
@@ -159,7 +160,6 @@ body {
     border-bottom-width: 100px;
     border-top-width: 100px;
     text-align: center;
-     padding-top: 100px;
 }
 .main-contacts-name {
     text-align: center;
@@ -174,7 +174,6 @@ body {
     border-bottom-width: 100px;
     border-top-width: 100px;
     text-align: center;
-     padding-top: 100px;
 }
 }
 
@@ -189,3 +188,5 @@ body {
     color: white;
     margin: auto;
 }
+
+
