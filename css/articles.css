@@ -57,7 +57,7 @@ body {
     background-color: #fffda5;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 501px) {
 .main-articles {
     background-color: #fffda5;
     display: grid;
@@ -69,12 +69,12 @@ body {
 
 .article {
     margin: 20px 20px 20px 20px;
-    width: 100%;
+    width: 90%;
     border-bottom-width: 50px;
     
 }
 
-@media only screen and (max-width: 659px) {
+@media only screen and (max-width: 500px) {
     .main-articles {
     background-color: #fffda5;
     text-align: center;
@@ -85,7 +85,7 @@ body {
 }
 
 .article {
-    width: 100%;E
+    max-width: 90%;
 }
     
 }
