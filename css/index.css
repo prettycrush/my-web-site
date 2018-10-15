@@ -135,15 +135,23 @@ body {
 @media (min-width: 769px) {
     .form {
         align-items: center;
+        text-align: center;
         display: block;
-        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50em;
     }
 }
 @media (max-width: 768px) {
-    .form {
+
+   .form {
         align-items: center;
+        text-align: center;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
+    
     }
 }
 
@@ -164,8 +172,10 @@ body {
      padding-top: 100px;
 }
 .main-contacts-name {
+    padding-top: 100px;
     text-align: center;
 }
+
 @media (max-width: 768px) {
 .main-contacts {
     font-size: small;
@@ -176,7 +186,7 @@ body {
     border-bottom-width: 100px;
     border-top-width: 100px;
     text-align: center;
-     padding-top: 100px;
+    
 }
 }
 
@@ -190,4 +200,42 @@ body {
     background-color: #d82b2b;
     color: white;
     margin: auto;
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+}
+
+.hand {
+  width: 45%;
+  height: 6px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hand.sec {
+  height: 2px;
+}
+.hand.hour {
+  width: 30%;
+  left: 21%;
+  top: 49%;
+}
+
+.time {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  font-size: 20vw;
+  opacity: .1;
+  z-index: 10;
+  font-weight: 900;
 }
